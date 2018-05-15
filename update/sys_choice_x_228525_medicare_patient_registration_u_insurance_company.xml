@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_insurance_company" table="x_228525_medicare_patient_registration" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_insurance_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LIC</label>
+            <language>en</language>
+            <name>x_228525_medicare_patient_registration</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 12:12:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94f538da4fc213004597045e9310c770</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:12:35</sys_updated_on>
+            <value>lic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_insurance_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ICICI</label>
+            <language>en</language>
+            <name>x_228525_medicare_patient_registration</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 12:12:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d4f538da4fc213004597045e9310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:12:35</sys_updated_on>
+            <value>icici</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_insurance_company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDFC</label>
+            <language>en</language>
+            <name>x_228525_medicare_patient_registration</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 12:12:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54f538da4fc213004597045e9310c772</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:12:35</sys_updated_on>
+            <value>hdfc</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_insurance_company</element>
+            <name>x_228525_medicare_patient_registration</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-15 12:12:35</sys_created_on>
+            <sys_id>90f538da4fc213004597045e9310c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_insurance_company</sys_name>
+            <sys_package display_value="Medicare" source="x_228525_medicare">8a9174164fc213004597045e9310c720</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Medicare">8a9174164fc213004597045e9310c720</sys_scope>
+            <sys_update_name>sys_choice_x_228525_medicare_patient_registration_u_insurance_company</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-15 12:12:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

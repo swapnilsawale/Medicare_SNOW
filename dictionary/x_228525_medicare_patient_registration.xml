@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Patient Registration" max_length="40" name="x_228525_medicare_patient_registration" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element choice="1" label="City" max_length="40" name="city" type="choice">
+            <choice/>
+        </element>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element choice="1" label="Insurance" max_length="40" name="insurance" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Patient name" max_length="40" name="patient_name" type="string"/>
+        <element choice="1" display="true" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element label="Male" sequence="0" value="Male"/>
+                <element label="Female" sequence="1" value="Female"/>
+                <element label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Blood Group" max_length="40" name="u_blood_group" type="string">
+            <choice>
+                <element label="A" sequence="0" value="a"/>
+                <element label="A-" sequence="1" value="a-"/>
+                <element label="B" sequence="2" value="b"/>
+                <element label="B-" sequence="3" value="b-"/>
+                <element label="AB" sequence="4" value="ab"/>
+                <element label="AB-" sequence="5" value="ab-"/>
+                <element label="O" sequence="6" value="o"/>
+                <element label="O-" sequence="7" value="o-"/>
+            </choice>
+        </element>
+        <element label="Contact No." max_length="40" name="u_contact_no" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Country" max_length="40" name="u_country" type="string">
+            <choice>
+                <element label="India" sequence="0" value="india"/>
+                <element label="United States" sequence="1" value="united states"/>
+                <element label="United Kingdom" sequence="2" value="united kingdom"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email Id" max_length="40" name="u_email_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="House No" max_length="40" name="u_house_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Insurance Company" max_length="40" name="u_insurance_company" type="string">
+            <choice>
+                <element label="LIC" sequence="0" value="lic"/>
+                <element label="ICICI" sequence="1" value="icici"/>
+                <element label="HDFC" sequence="2" value="hdfc"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="Maharashtra" sequence="0" value="maharashtra"/>
+                <element label="Telangana" sequence="1" value="telangana"/>
+                <element label="TamilNadu" sequence="2" value="tamilnadu"/>
+                <element label="Karnataka" sequence="3" value="karnataka"/>
+                <element label="Gujarat" sequence="4" value="gujarat"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+    </element>
+</database>
